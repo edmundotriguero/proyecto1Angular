@@ -31,6 +31,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    
     //DashboardComponent,
     //ProgressComponent,
     //Graficas1Component,
