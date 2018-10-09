@@ -1,3 +1,32 @@
-<p>
-  graficas1 works!
-</p>
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <app-ng2chart [doughnutChartLabels]= "graficos.graficos1.labels" [doughnutChartData]="graficos.graficos1.data" doughnutChartType="doughnut" ></app-ng2chart>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <app-ng2chart [doughnutChartLabels]= "graficos.graficos2.labels" [doughnutChartData]="graficos.graficos2.data" doughnutChartType="doughnut"></app-ng2chart>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <app-ng2chart [doughnutChartLabels]= "graficos.graficos3.labels" [doughnutChartData]="graficos.graficos3.data" doughnutChartType="doughnut"></app-ng2chart>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <app-ng2chart [doughnutChartLabels]= "graficos.graficos4.labels" [doughnutChartData]="graficos.graficos4.data" doughnutChartType="doughnut"></app-ng2chart>
+      </div>
+    </div>
+  </div>
+</div>

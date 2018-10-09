@@ -19,6 +19,7 @@ import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component
 import { HeaderComponent } from './shared/header/header.component';
 import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { Ng2chartComponent } from './components/ng2chart/ng2chart.component';
 
 
 
@@ -31,6 +32,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    
     
     //DashboardComponent,
     //ProgressComponent,
